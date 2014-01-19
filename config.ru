@@ -5,6 +5,6 @@ ENV['RACK_ENV'] ||= 'development'
 
 Bundler.require(:default)
 
-require_relative 'ameripride'
+require './ameripride'
 
 run Sinatra::Application
