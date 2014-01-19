@@ -7,6 +7,7 @@ GEM
     rack-protection (1.5.2)
       rack
     rake (10.1.1)
+    rubyzip (1.0.0)
     sinatra (1.4.4)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -22,5 +23,6 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  rubyzip
   sinatra
   thin

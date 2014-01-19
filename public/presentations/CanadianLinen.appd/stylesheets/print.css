@@ -1,0 +1,284 @@
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+div.container {
+	width: 612px;
+}
+
+div#content {
+	width: 612px;
+}
+
+div#content div#nav_outer_container {
+	display: none;
+}
+
+div#title {
+	width: 548px;
+	height: 728px;
+	padding: 32px;
+	text-align: center;
+	page-break-after: always;
+}
+
+div#title img#title_background {
+	display: block;
+	width: 548px;
+	height: auto;
+}
+
+div#title img#title_logo {
+	display: block;
+	width: 100px;
+	height: auto;
+	max-height: 100px;
+	margin-bottom: 20px;
+}
+
+div#title hgroup {
+	font-size: 26px;
+}
+
+div#title_footer {
+	font-size: 18px;
+}
+
+div#title_footer span {
+	display: block;
+}
+
+div#main {
+	display: none;
+}
+
+div#customer_advantage {
+	text-align: center;
+}
+
+div#customer_advantage h1 {
+	text-align: left;
+}
+
+div#customer_advantage ul {
+	text-align: left;
+	list-style-position: inside;
+}
+
+div#customer_advantage img {
+	margin-bottom: 20px;
+}
+
+div#requirements_expectations {
+	font-size: 14px;
+}
+
+div#requirements_expectations img {
+	float: left;
+	width: 33%;
+	height: auto;
+	margin-right: 20px;
+}
+
+div#product_shortages img {
+	float: right;
+	width: 100%;
+	height: auto;
+	margin-left: 20px;
+}
+
+div#product_shortages div.inner_left {
+	width: 60%;
+	float: left;
+	margin-right: 2%;
+}
+
+div#product_shortages div.inner_right {
+	width: 38%;
+	float: right;
+}
+
+div#repairs img {
+	width: 100%;
+	height: auto;
+}
+
+div#repairs div.inner_left {
+	width: 47%;
+	float: left;
+	margin-right: 2%;
+}
+
+div#repairs div.inner_divider {
+	width: 1%;
+	height: 500px;
+	float: left;
+}
+
+div#repairs div.inner_right {
+	width: 49%;
+	float: left;
+}
+
+div#uniform_upgrades {
+	text-align: center;
+}
+
+div#uniform_upgrades h1 {
+	text-align: left;
+}
+
+div#uniform_upgrades img {
+	width: 100%;
+	height: auto;
+}
+
+div#communications hr {
+	display: none;
+}
+
+div#communications hr.heading {
+	display: block;
+}
+
+div#communications div.inner_left {
+	width: 34%;
+	float: left;
+}
+
+div#communications div.inner_middle {
+	width: 28%;
+	margin: 0 2%;
+	float: left;
+}
+
+div#communications div.inner_middle img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+div#communications div.inner_right {
+	width: 34%;
+	float: left;
+}
+
+div#complete_customer_care div.inner_left {
+	width: 34%;
+	float: left;
+}
+
+div#complete_customer_care div.inner_middle {
+	width: 28%;
+	margin: 0 2%;
+	float: left;
+}
+
+div#complete_customer_care div.inner_middle img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+div#complete_customer_care div.inner_right {
+	width: 34%;
+	float: left;
+}
+
+div#complete_customer_care div.inner_right img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+div#our_service_promise {
+	text-align: center;
+}
+
+div#our_service_promise h1 {
+	text-align: left;
+}
+
+div#our_service_promise img {
+	margin-top: 20px;
+}
+
+div#transparent_invoicing {
+	text-align: center;
+}
+
+div#transparent_invoicing h1 {
+	text-align: left;
+}
+
+div#customer_service_excellence {
+	height: auto;
+	page-break-after: avoid;
+}
+
+div#customer_service_excellence img {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: 280px;
+	max-height: 280px;
+	margin: 0px auto;
+}
+
+div.toggle_control {
+	display: none;
+}
+
+div.slide {
+	width: 548px;
+	height: 728px;
+	padding: 32px;
+	clear: both;
+	page-break-after: always;
+}
+
+div.footer {
+	display: none;
+}
+
+body {
+	font-size: 12px;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+img {
+	margin-bottom: 20px;
+}
+
+form {
+	display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+hr {
+	margin-bottom: 20px;
+	border: 1px black solid;
+}

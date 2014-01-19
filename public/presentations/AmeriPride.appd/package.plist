@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>title</key>
+  <string>AmeriPride</string>
+  <key>presentations</key>
+  <array>
+    <dict>
+      <key>filename</key>
+      <string>food_service_solutions</string>
+      <key>title</key>
+      <string>Food Service Solutions</string>
+    </dict>
+    <dict>
+      <key>filename</key>
+      <string>hospitality_service_solutions</string>
+      <key>title</key>
+      <string>Hospitality Service Solutions</string>
+    </dict>
+    <dict>
+      <key>filename</key>
+      <string>industrial_service_solutions</string>
+      <key>title</key>
+      <string>Industrial Service Solutions</string>
+    </dict>
+    <dict>
+      <key>filename</key>
+      <string>healthcare_service_solutions</string>
+      <key>title</key>
+      <string>Healthcare Service Solutions</string>
+    </dict>
+  </array>
+</dict>
+</plist>

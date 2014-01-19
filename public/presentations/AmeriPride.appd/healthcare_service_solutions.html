@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="height=704, width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='stylesheets/reset.css' media='screen, projection' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/screen.css' media='screen, projection' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+    <script src='scripts/jquery.min.js' type='text/javascript'></script>
+    <script src='scripts/jquery.touchswipe.min.js' type='text/javascript'></script>
+    <script src='scripts/date.js' type='text/javascript'></script>
+    <script src='scripts/presentation.js' type='text/javascript'></script>
+    <script>
+      //<![CDATA[
+        /* Initiate the application javascript and run */
+        $(document).ready(function(){
+        
+          presentation.run();
+        
+        });
+      //]]>
+    </script>
+    <title>Healthcare Service Solutions</title>
+  </head>
+  <body data-title="healthcare_service_solutions">
+    <div class="container">
+      <div id="title">
+        <div id="title_header">
+          <img id="title_background" src="images/healthcare_service_title.png" alt="title" width="1024" height="704">
+          <hgroup id="title_headings">
+            <h3 class="editable nonreturnable" data-key="business_name">Prospect's Business Name</h3>
+            <h4>Customer Proposal</h4>
+            <h4 class="date">January 1st 2013</h4>
+          </hgroup>
+          <div id="title_logo_container" class="imageeditable">
+            <img id="title_logo" src="images/placeholder_logo.png" alt="placeholder" width="200" data-key="photo_logo">
+            <form id="title_logo_form" enctype="multipart/form-data" method="post" action="#upload">
+              <input id="title_logo_input" name="logo" type="file">
+            </form>
+          </div>
+        </div>
+        <div id="title_footer">
+          <span id="title_sales_rep" class="footer_left editable nonreturnable" data-key="sales_rep">Sales Rep / Title</span>
+          <span id="title_motto" class="footer_right">People You Can Count On</span>
+        </div>
+      </div>
+      <div id="content">
+        <div id="nav_outer_container">
+          <div id="nav_inner_container">
+            <nav id="nav_top_nav">
+              <a href="#main">Healthcare Service Solutions</a>
+              <a href="#customer_advantage">Customer Advantage</a>
+              <a href="#requirements_expectations">Requirements &amp; Expectations</a>
+              <a href="#product_shortages">Product Shortages</a>
+              <a href="#repairs">Repairs</a>
+              <a href="#uniform_upgrades">Uniform Upgrades</a>
+              <a href="#communications">Communications</a>
+              <a href="#complete_customer_care">Complete Customer Care</a>
+              <a href="#transparent_invoicing">Transparent Invoicing</a>
+              <a href="#our_service_promise">Our Service Promise</a>
+              <a href="#customer_service_excellence">Customer Service Excellence</a>
+            </nav>
+          </div>
+        </div>
+        <div id="slides">
+          <div id="slide_container">
+            <div id="main" class="slide">
+              <div class="outer_container">
+                <div class="toggle_control">
+                  <form action="#toggle" method="get">
+                    <label for="toggle_main">Visible: </label>
+                    <input id="toggle_main" name="toggle_main" value="toggle_main" type="checkbox" checked="checked">
+                  </form>
+                </div>
+                <h1>Healthcare Service Solutions</h1>
+                <hr class="heading">
+                <div class="inner_container">
+                  <video id="video" width="600" height="450" controls>
+                    <source src="images/intro.m4v" type="video/mp4" />
+                  </video>
+                  <nav id="side_nav">
+                    <a href="#customer_advantage">Customer Advantage</a>
+                    <a href="#requirements_expectations">Requirements &amp; Expectations</a>
+                    <a href="#product_shortages">Product Shortages</a>
+                    <a href="#repairs">Repairs</a>
+                    <a href="#uniform_upgrades">Uniform Upgrades</a>
+                    <a href="#communications">Communications</a>
+                    <a href="#complete_customer_care">Complete Customer Care</a>
+                    <a href="#transparent_invoicing">Transparent Invoicing</a>
+                    <a href="#our_service_promise">Our Service Promise</a>
+                    <a href="#customer_service_excellence">Customer Service Excellence</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div id="customer_advantage" class="slide">
+              <div class="outer_container">
+                <div class="toggle_control">
+                  <form action="#toggle" method="get">
+                    <label for="toggle_customer_advantage">Visible: </label>
+                    <input id="toggle_customer_advantage" name="toggle_customer_advantage" value="toggle_customer_advantage" type="checkbox" checked="checked">
+                  </form>
+                </div>
+                <h1>Customer Advantage</h1>
+                <hr class="heading">
+                <div class="inner_container">
+                  <div class="inner_left">
+                    <img src="images/delivery_collage.png" alt="delivery_collage" width="451" height="500">
+                  </div>
+                  <div class="inner_divider"></div>
+                  <div class="inner_right">
+                    <ul>
+                      <li class="editable" data-key="customer_advantage_1">Quality, innovation and results since 1889</li>
+                      <li class="editable" data-key="customer_advantage_2">More than 100 years of industry-leading experience</li>
+                      <li class="editable" data-key="customer_advantage_3">One of United States largest linen and uniform program providers</li>
+                      <li class="editable" data-key="customer_advantage_4">Serving over 150,000 customers daily</li>
+                      <li class="editable" data-key="customer_advantage_5">Single source supply for uniforms, linens, floor care, and restroom products</li>
+                      <li class="editable" data-key="customer_advantage_6">Complete Customer Care proactive account management programs to ensure your total satisfaction</li>
+                      <li class="editable" data-key="customer_advantage_7">Dedicated and committed to being the “People You Can Count On”</li>
+                      <li class="editable" data-key="customer_advantage_8"></li>
+                      <li class="editable" data-key="customer_advantage_9"></li>
+                      <li class="editable" data-key="customer_advantage_10"></li>
+                      <li class="editable" data-key="customer_advantage_11"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="requirements_expectations" class="slide">
+              <div class="outer_container">
+                <div class="toggle_control">
+                  <form action="#toggle" method="get">
+                    <label for="toggle_requirements_expectations">Visible: </label>
+                    <input id="toggle_requirements_expectations" name="toggle_requirements_expectations" value="toggle_requirements_expectations" type="checkbox" checked="checked">
+                  </form>
+                </div>
+                <h1>Customer Requirements &amp; Expectations</h1>
+                <hr class="heading">
+                <div class="inner_container">
+                  <div class="inner_left">
+                    <img src="images/delivery_man.png" alt="delivery_man" width="360" height="500">
+                  </div>
+                  <div class="inner_divider"></div>
+                  <div class="inner_right">
+                    <hgroup>
+                      <h2 class="editable" data-key="customer_requirements_heading_1">Product Shortages</h2>
+                      <h3 class="editable" data-key="customer_requirements_sub_heading_1">Maintaining correct inventory level</h3>
+                    </hgroup>
+                    <hgroup>
+                      <h2 class="editable" data-key="customer_requirements_heading_2">Inconsistent Product Quality</h2>
+                      <h3 class="editable" data-key="customer_requirements_sub_heading_2"></h3>
+                    </hgroup>
+                    <hgroup>
+                      <h2 class="editable" data-key="customer_requirements_heading_3">Continuous Uniform Upgrades</h2>
+                      <h3 class="editable" data-key="customer_requirements_sub_heading_3"></h3>
+                    </hgroup>
+                    <hgroup>
+                      <h2 class="editable" data-key="customer_requirements_heading_4">Communications</h2>
+                      <h3 class="editable" data-key="customer_requirements_sub_heading_4"></h3>
+                    </hgroup>
+                    <hgroup>
+                      <h2 class="editable" data-key="customer_requirements_heading_5">Inaccurate Billing / Invoicing</h2>
+                      <h3 class="editable" data-key="customer_requirements_sub_heading_5">Excessive lost, damage, and hidden charges <br> Minimum order charges</h3>
+                    </hgroup>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="product_shortages" class="slide">
+              <div class="outer_container">
+                <div class="toggle_control">
+                  <form action="#toggle" method="get">
+                    <label for="toggle_product_shortages">Visible: </label>
+                    <input id="toggle_product_shortages" name="toggle_product_shortages" value="toggle_product_shortages" type="checkbox" checked="checked">
+                  </form>
+                </div>
+                <h1>Product Shortages</h1>
+                <hr class="heading">
+                <div class="inner_container">
+                  <div class="inner_left">
+                    <p class="editable" data-key="product_shortages_heading">Complete customer product history reports are monitored for each item to assist in managing:</p>
+                    <hr>
+                    <ul>
+                      <li class="editable" data-key="product_shortages_1">Laundering Information</li>
+                      <li class="editable" data-key="product_shortages_2">Product Lifecycle</li>
+                      <li class="editable" data-key="product_shortages_3">Employee Information</li>
+                      <li class="editable" data-key="product_shortages_4">Route, Day, Delivery Information</li>
+                      <li class="editable" data-key="product_shortages_5"></li>
+                      <li class="editable" data-key="product_shortages_6"></li>
+                      <li class="editable" data-key="product_shortages_7"></li>
+                      <li class="editable" data-key="product_shortages_8"></li>
+                      <li class="editable" data-key="product_shortages_9"></li>
+                    </ul>
+                  </div>
+                  <div class="inner_divider"></div>
+                  <div class="inner_right">
+                    <img src="images/shirt_discussion.png" alt="shirt_discussion" width="441" height="500">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="repairs" class="slide">
+              <div class="outer_container">
+                <div class="toggle_control">
+                  <form action="#toggle" method="get">
+                    <label for="toggle_repairs">Visible: </label>
+                    <input id="toggle_repairs" name="toggle_repairs" value="toggle_repairs" type="checkbox" checked="checked">
+                  </form>
+                </div>
+                <h1>Repairs</h1>
+                <hr class="heading">
+                <div class="inner_container">
+                  <div class="inner_left">
+                    <div>
+                      <img src="images/shirt_man.png" alt="shirt_man" width="120" height="120">
+                      <p class="editable" data-key="repairs_1">Highly skilled menders provide quality repairs to ensure your employees always look their best</p>
+                    </div>
+                    <hr>
+                    <img src="images/mending.png" alt="mending" width="441" height="280">
+                  </div>
+                  <div class="inner_divider"></div>
+                  <div class="inner_right">
+                    <p class="editable" data-key="repairs_2">Repairs are completed by next delivery day to eliminate any disruption in your business</p>
+                    <img src="images/shirts.png" alt="shirts" width="441" height="318">
+                    <p class="editable" data-key="repairs_3">Proactive customer inventory reviews assist in catching any damaged garments before they are laundered and delivered</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="uniform_upgrades" class="slide">
+              <div class="outer_container">
+                <div class="toggle_control">
+                  <form action="#toggle" method="get">
+                    <label for="toggle_uniform_upgrades">Visible: </label>
+                    <input id="toggle_uniform_upgrades" name="toggle_uniform_upgrades" value="toggle_uniform_upgrades" type="checkbox" checked="checked">
+                  </form>
+                </div>
+                <h1>Continuous Uniform Upgrades</h1>
+                <hr class="heading">
+                <div class="inner_container">
+                  <div class="inner_left">
+                    <img src="images/man_collage.png" alt="man_collage" width="596" height="415">
+                  </div>
+                  <div class="inner_divider"></div>
+                  <div class="inner_right">
+                    <p class="editable" data-key="uniform_upgrades_1">Ameripride’s quality control system for garment replacement ensures you always have a consistent and professional image</p>
+                    <p class="editable" data-key="uniform_upgrades_2">Normally worn-out or unrepairable garments are proactively replaced</p>
+                    <p class="editable" data-key="uniform_upgrades_3">Excessive damage or lost garments are automatically tracked by employee and type</p>
+                    <p class="editable" data-key="uniform_upgrades_4"></p>
+                    <p class="editable" data-key="uniform_upgrades_5"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="communications" class="slide">
+              <div class="outer_container">
+                <div class="toggle_control">
+                  <form action="#toggle" method="get">
+                    <label for="toggle_communications">Visible: </label>
+                    <input id="toggle_communications" name="toggle_communications" value="toggle_communications" type="checkbox" checked="checked">
+                  </form>
+                </div>
+                <h1>Communications</h1>
+                <hr class="heading">
+                <div class="inner_container">
+                  <div class="inner_left">
+                    <hr>
+                    <p class="editable" data-key="communications_1">Proactive daily account review meetings assist in addressing any customer needs and concerns</p>
+                    <p class="editable" data-key="communications_2">On-site service inspections and inventory surveys are completed to resolve any service issues</p>
+                    <p class="editable" data-key="communications_3"></p>
+                    <p class="editable" data-key="communications_4"></p>
+                    <p class="editable" data-key="communications_5"></p>
+                  </div>
+                  <div class="inner_middle">
+                    <img src="images/shaking_hands.png" alt="shaking_hands" width="220" height="200">
+                    <img src="images/man_woman.png" alt="man_woman" width="220" height="200">
+                  </div>
+                  <div class="inner_right">
+                    <hr>
+                    <p class="editable" data-key="communications_6">Ongoing customer satisfaction surveys ensure that we are meeting our customers requirements and expectations</p>
+                    <p class="editable" data-key="communications_7">Our people are empowered to address any concerns on the spot</p>
+                    <p class="editable" data-key="communications_8"></p>
+                    <p class="editable" data-key="communications_9"></p>
+                    <p class="editable" data-key="communications_10"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="complete_customer_care" class="slide">
+              <div class="outer_container">
+                <div class="toggle_control">
+                  <form action="#toggle" method="get">
+                    <label for="toggle_complete_customer_care">Visible: </label>
+                    <input id="toggle_complete_customer_care" name="toggle_complete_customer_care" value="toggle_complete_customer_care" type="checkbox" checked="checked">
+                  </form>
+                </div>
+                <h1>Complete Customer Care</h1>
+                <hr class="heading">
+                <div class="inner_container">
+                  <div class="inner_left">
+                    <p class="editable" data-key="complete_customer_care_1">Ensures that receive consistent high quality service every week, every delivery</p>
+                    <p class="editable" data-key="complete_customer_care_2">Proactively address and solve issues before they become problems</p>
+                    <p class="editable" data-key="complete_customer_care_3">Delivers proactive communication that provides best practices for areas of improvement</p>
+                    <p class="editable" data-key="complete_customer_care_4"></p>
+                    <p class="editable" data-key="complete_customer_care_5"></p>
+                  </div>
+                  <div class="inner_middle">
+                    <img src="images/delivery_man_shaking.png" alt="delivery_man_shaking" width="220" height="382">
+                  </div>
+                  <div class="inner_right">
+                    <p class="editable" data-key="complete_customer_care_6">The most comprehensive Account Management program in the industry</p>
+                    <hr>
+                    <img src="images/complete_customer_care.png" alt="complete_customer_care" width="290" height="330">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="transparent_invoicing" class="slide">
+              <div class="outer_container">
+                <div class="toggle_control">
+                  <form action="#toggle" method="get">
+                    <label for="toggle_transparent_invoicing">Visible: </label>
+                    <input id="toggle_transparent_invoicing" name="toggle_transparent_invoicing" value="toggle_transparent_invoicing" type="checkbox" checked="checked">
+                  </form>
+                </div>
+                <h1>Transparent Invoicing</h1>
+                <hr class="heading">
+                <div class="inner_container">
+                  <div class="inner_left">
+                    <figure>
+                      <img src="images/invoice.png" alt="invoice" width="441" height="420">
+                      <figcaption class="editable" data-key="transparent_invoicing_caption">Each invoice clearly describes the items, quantity and services provided</figcaption>
+                    </figure>
+                  </div>
+                  <div class="inner_divider"></div>
+                  <div class="inner_right">
+                    <h2 class="editable" data-key="transparent_invoicing_heading_1">One Supplier, One Invoice</h2>
+                    <p class="editable" data-key="transparent_invoicing_paragraph_1">No more complicated invoices from multiple vendors</p>
+                    <h2 class="editable" data-key="transparent_invoicing_heading_2">Simple, Line-Itemized Invoicing</h2>
+                    <p class="editable" data-key="transparent_invoicing_paragraph_2">No hidden charges - No Surprises</p>
+                    <h2 class="editable" data-key="transparent_invoicing_heading_3"></h2>
+                    <p class="editable" data-key="transparent_invoicing_paragraph_3"></p>
+                    <h2 class="editable" data-key="transparent_invoicing_heading_4"></h2>
+                    <p class="editable" data-key="transparent_invoicing_paragraph_4"></p>
+                    <h2 class="editable" data-key="transparent_invoicing_heading_5"></h2>
+                    <p class="editable" data-key="transparent_invoicing_paragraph_5"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="our_service_promise" class="slide">
+              <div class="outer_container">
+                <div class="toggle_control">
+                  <form action="#toggle" method="get">
+                    <label for="toggle_our_service_promise">Visible: </label>
+                    <input id="toggle_our_service_promise" name="toggle_our_service_promise" value="toggle_our_service_promise" type="checkbox" checked="checked">
+                  </form>
+                </div>
+                <h1>Our Service Promise</h1>
+                <hr class="heading">
+                <div class="inner_container">
+                  <div class="inner_left">
+                    <img src="images/service_promise.png" alt="service_promise" width="524" height="396">
+                  </div>
+                  <div class="inner_divider"></div>
+                  <div class="inner_right">
+                    <h2 class="editable" data-key="our_service_promise_heading">Highest Level Of Customer Service</h2>
+                    <hr>
+                    <p class="editable" data-key="our_service_promise_paragraph_1">Fast and efficient response to any customer service issue</p>
+                    <p class="editable" data-key="our_service_promise_paragraph_2">Option to cancel your service agreement if unable to resolve any service needs within 60 days</p>
+                    <p class="editable" data-key="our_service_promise_paragraph_3"></p>
+                    <p class="editable" data-key="our_service_promise_paragraph_4"></p>
+                    <p class="editable" data-key="our_service_promise_paragraph_5"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="customer_service_excellence" class="slide">
+              <div class="outer_container">
+                <div class="toggle_control">
+                  <form action="#toggle" method="get">
+                    <label for="toggle_customer_service_excellence">Visible: </label>
+                    <input id="toggle_customer_service_excellence" name="toggle_customer_service_excellence" value="toggle_customer_service_excellence" type="checkbox" checked="checked">
+                  </form>
+                </div>
+                <h1>Customer Service Excellence</h1>
+                <hr class="heading">
+                <div class="inner_container">
+                  <div class="inner_left imageeditable">
+                    <img id="photo_csr" src="images/placeholder_photo.png" alt="placeholder" width="280" data-key="photo_csr">
+                    <form id="photo_upload_form" enctype="multipart/form-data" method="post" action="#upload">
+                      <input id="photo" name="photo" type="file">
+                    </form>
+                  </div>
+                  <div class="inner_divider"></div>
+                  <div class="inner_middle">
+                    <h2 class="editable" data-key="customer_service_excellence_heading_1">Bio</h2>
+                    <p class="editable" data-key="customer_service_excellence_paragraph_1">
+                      Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum.
+                    </p>
+                    <p class="editable" data-key="customer_service_excellence_paragraph_2">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                    </p>
+                    <h2 class="editable" data-key="customer_service_excellence_heading_2">References For Industry</h2>
+                    <p class="editable" data-key="customer_service_excellence_paragraph_3">
+                      Nulla vitae elit libero, a pharetra augue. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                  </div>
+                  <div class="inner_divider"></div>
+                  <div class="inner_right">
+                    <h2 class="editable" data-key="customer_service_excellence_heading_3">Summary Of Service Team</h2>
+                    <p class="editable" data-key="customer_service_excellence_paragraph_4">
+                      Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum.
+                    </p>
+                    <p class="editable" data-key="customer_service_excellence_paragraph_5">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <span id="client_name" class="footer_left editable nonreturnable">Client Name</span>
+          <span id="date" class="footer_right date">January 1st 2013</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
